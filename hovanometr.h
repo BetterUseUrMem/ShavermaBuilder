@@ -1,4 +1,4 @@
-namespace
+namespace WAYRMA
 {
 	enum lavash_type
 	{
