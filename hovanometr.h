@@ -1,3 +1,5 @@
+#include <iostream>
+
 namespace WAYRMA
 {
 	enum lavash_type
@@ -26,4 +28,11 @@ namespace WAYRMA
 		sous_type sous;
 		lavash_type lavash;
 	};
+
+	void PRIGOTOVIT
+	{
+		std::cout << "Shaverma gorovitsya..." << std::endl;
+	    Sleep(50000);
+		std::cout << "Gotovo!!! BON APPETI" << std::endl;
+	}
 }
