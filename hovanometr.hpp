@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <Windows.h>
 namespace WAYRMA
 {
 	enum lavash_type
