@@ -21,7 +21,7 @@ namespace hh {
 	private:
 		float c;
 	public:
-		void Calc(shaverstruct *s) {
+		void Calc(const shaverstruct *s) {
 				int sous{};
 				switch (s->sous)
 				{
