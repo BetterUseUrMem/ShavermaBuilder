@@ -22,7 +22,6 @@ namespace hh {
 		float c;
 	public:
 		void Calc(shaverstruct *s) {
-			if (s != 0x0) {
 				int sous{};
 				switch (s->sous)
 				{
@@ -39,14 +38,13 @@ namespace hh {
 					sous = 356;
 					break;
 				default:
-					sous = 0;
+					sous = 335;
 					break;
 				}
 
 				c = ((s->kapusta/100) * 27) + ((s->kartoshka/100) * 77) + ((s->morkov_koryaskaya/100) * 134)
 					+ ((s->myaso/100) * 110) + ((s->pomidor/100) * 18) + sous;
 			}
-		}
 
 		float GetCalories() {
 			return c;
