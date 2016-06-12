@@ -1,6 +1,7 @@
 namespace hh {
 
 	enum sous_type {
+		none,
 		chesnochnuy,
 		ostriu,
 		tomatnyu,
